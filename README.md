@@ -1,4 +1,4 @@
-# HaniaGallery
+# HannaGallery
 
 Pierwsze zdjęcie to główna strona. 
 
