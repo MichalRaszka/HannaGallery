@@ -1,0 +1,137 @@
+*{
+    max-width: 100%;
+}
+
+body{
+    background-color: black;
+    left: 0px;
+    top: 0px;
+}
+
+#mozaika{
+    margin:auto;
+    width: 100%;
+    height: 525px;
+    background: #FFFFFF;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+          ". . . . . . . . . ."
+          ". . . . . . . . . ."
+          ". . . . . . . . . ."
+          ". . . . . . . . . ."
+          ". . . . . . . . . ."
+          ". . . . . . . . . ."
+          ". . . . . . . . . ."
+          ". . . . . . . . . ."
+          ". . . . . . . . . ."
+          ". . . . . . . . . ."
+          ". . . . . . . . . ."
+          ". . . . . . . . . ."
+          ". . . . . . . . . ."
+          ". . . . . . . . . ."
+          ". . . . . . . . . .";
+          */
+}
+
+.square {
+    float:left;
+    position: relative;
+    width: 10%;
+    padding-bottom : 10%; /* = width for a 1:1 aspect ratio */
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+
+#s1{
+    background-color: blue;
+}
+
+#s2{
+    background-color: burlywood;
+}
+
+#s3{
+    background-color:cadetblue;
+}
+
+#s4{
+    background-color:coral;
+}
+
+#s5{
+    background-color:cornflowerblue;
+}
+
+#s6{
+    background-color:cornsilk;
+}
+
+#s7{
+    background-color:yellow;
+}
+
+#s8{
+    background-color:palegreen;
+}
+
+#s9{
+    background-color:yellowgreen;
+}
+
+#s10{
+    background-color:peru;
+}
+/* stopka */
+
+#stopka{
+    position: absolute;
+    width: 100%;
+    height: 94px;
+    left: 0px;
+    top: 573px;
+}
+
+/* Autor */
+
+#autor{
+    position: absolute;
+    width: 375em;
+    height: 37em;
+    left: 0px;
+    top: 0px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Kontakt */
+
+#kontakt{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    right: 0px;
+    top: 3em;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.78);
+    margin-top: 10px;
+}
+
+#kontakt p{
+    padding:0px;
+    margin: 0;
+}
