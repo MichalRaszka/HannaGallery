@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hanna Gallery</title>
+    <title>Hanna Gallery</title>  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+    <!--Mozaika-->
     <div id="mozaika">
         <div class="square" id="s1"></div>
         <div class="square" id="s2"></div>
@@ -39,7 +42,7 @@
         <div class="square" id="s26"></div>
         <div class="square" id="s27"></div>
         <div class="square" id="s28"></div>
-        <div class="square" id="s29"></div>
+        <div class="square" id="s29" data-bs-toggle="modal" data-bs-target="#staticBackdrop"></div>
         <div class="square" id="s30"></div>
         <div class="square" id="s31"></div>
         <div class="square" id="s32"></div>
@@ -162,6 +165,22 @@
         <div class="square" id="s149"></div>
         <div class="square" id="s150"></div>
     </div>
+
+
+
+    <!--Galeria-->
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!--Stopka-->
     <div id="stopka">
         <div id="autor">
             <p>Hanna Padchynenkava</p>
@@ -173,6 +192,10 @@
             <p>Republic of Belarus-Poland-Czech Republic</p>
         </div>
     </div>
-</body>
 
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
 </html>

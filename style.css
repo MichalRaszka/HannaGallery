@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: black !important;
     font-family: Nunito;
     height: 100%;
 }
@@ -39,7 +39,7 @@ body{
 /* stopka */
 
 #stopka{
-
+    padding-top: 30px;
     width: 100%;
 }
 
@@ -574,3 +574,5 @@ body{
 		background-position: 0% 50%;
 	}
 }
+
+
