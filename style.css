@@ -5,12 +5,15 @@
 body{
     background-color: black !important;
     font-family: Nunito;
-    height: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 #mozaika{
-    margin:auto;
-    height: 550px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
     /*display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -41,6 +44,7 @@ body{
 #stopka{
     padding-top: 30px;
     width: 100%;
+    margin-top: auto;
 }
 
 /* Autor */
@@ -548,6 +552,31 @@ body{
     }
     #stopka{
         padding-top: 60px;
+    }
+  }
+
+  @media only screen and (min-width: 682px) {
+    #mozaika{
+    height: 800px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    }
+  }
+
+  @media only screen and (min-width: 700px) {
+    .square {
+        float:left;
+        position: relative;
+        width: 90px;
+        padding-bottom : 90px; /* = width for a 1:1 aspect ratio */
+        background-position:center center;
+        background-repeat:no-repeat;
+    }
+    #mozaika{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
     }
   }
 
