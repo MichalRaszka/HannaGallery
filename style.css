@@ -42,7 +42,7 @@ body{
 /* stopka */
 
 #stopka{
-    padding-top: 30px;
+    padding-top: 4%;
     width: 100%;
     margin-top: auto;
 }
@@ -546,14 +546,6 @@ body{
     background-color:  #483738;
 }
 
-@media only screen and (min-width: 376px) {
-    #mozaika{
-        min-height: 1000;
-    }
-    #stopka{
-        padding-top: 60px;
-    }
-  }
 
   @media only screen and (min-width: 682px) {
     #mozaika{
