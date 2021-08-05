@@ -578,11 +578,24 @@ body{
 
   /*Animations*/
 
-  #s29 {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+#s29 {
+	background: linear-gradient(-100deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
+	animation: gradient 5s ease-in infinite;
+}
+
+#s33 {
+	background: linear-gradient(-100deg,#5fb6e9,#327BE1, #327BE1,#3cb3ee);
+    background-size: 500% 500%;
 	animation: gradient 5s ease infinite;
 }
+
+#s36 {
+	background: linear-gradient(-100deg,#327BE1, #babcbd,#babcbd,#327BE1,);
+	background-size: 200% 200%;
+	animation: gradient 5s ease infinite;
+}
+
 
 @keyframes gradient {
 	0% {
@@ -595,5 +608,4 @@ body{
 		background-position: 0% 50%;
 	}
 }
-
 
