@@ -86,6 +86,18 @@ body{
 }
 
 
+.modal-content{
+    background-color: black;
+}
+
+.modal-body p{
+    color: white;
+    text-align: center;
+}
+
+.description{
+    padding-top: 20px;
+}
 .square {
     float:left;
     position: relative;
