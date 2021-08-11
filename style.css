@@ -56,8 +56,6 @@ body{
 /* Autor */
 
 #autor{
- 
-
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
@@ -70,7 +68,6 @@ body{
 /* Kontakt */
 
 #kontakt{
-    
     font-family: 'Dancing Script', cursive;
 
     font-family: 'Lato', sans-serif;
@@ -95,7 +92,6 @@ body{
     color: white;
 }
 
-
 .modal-content{
     background-color: black;
 }
@@ -103,6 +99,10 @@ body{
 .modal-body p{
     color: white;
     text-align: center;
+}
+
+.modal-header{
+    border:none;
 }
 
 .description{
@@ -116,6 +116,11 @@ body{
     background-position:center center;
     background-repeat:no-repeat;
 }
+
+button.btn-close {
+    text-align: right;
+}
+
 
 #s1{
     background-color:  #64382E;
@@ -569,31 +574,6 @@ body{
 }
 
 
-  @media only screen and (min-width: 682px) {
-    #mozaika{
-    height: 800px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
-    }
-  }
-
-  @media only screen and (min-width: 700px) {
-    .square {
-        float:left;
-        position: relative;
-        width: 90px;
-        padding-bottom : 90px; /* = width for a 1:1 aspect ratio */
-        background-position:center center;
-        background-repeat:no-repeat;
-    }
-    #mozaika{
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
-    }
-  }
-
 
 
   /*Animations*/
@@ -615,14 +595,6 @@ body{
    
 }
 
-.modal-header{
-    border:none;
-}
-
-
-.btn-close{
-    text-align: right;
-}
 
 @keyframes gradient {
 	0% {
@@ -634,4 +606,37 @@ body{
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+
+
+
+
+
+
+/*Responsive attr*/
+
+@media only screen and (min-width: 682px) {
+    #mozaika{
+    height: 800px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .square {
+        float:left;
+        position: relative;
+        width: 90px;
+        padding-bottom : 90px; /* = width for a 1:1 aspect ratio */
+        background-position:center center;
+        background-repeat:no-repeat;
+    }
+    #mozaika{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    }
 }
