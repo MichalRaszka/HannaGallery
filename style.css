@@ -124,9 +124,7 @@ body{
     background-repeat:no-repeat;
 }
 
-img{
-    max-height: 400px;
-}
+
 
 
 #s1{
@@ -645,5 +643,11 @@ img{
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    img{
+        max-height: 120vw;
     }
 }
