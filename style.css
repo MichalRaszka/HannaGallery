@@ -124,6 +124,7 @@ body{
     padding-bottom : 10%; /* = width for a 1:1 aspect ratio */
     background-position:center center;
     background-repeat:no-repeat;
+    opacity: 70%;
 }
 
 
@@ -582,11 +583,16 @@ body{
 
 
 
+#s29, #s33, #s36, #s47, #s75, #s97, #s116, #s137{
+    opacity: 100%;
+    z-index: 1;
+}
 
   /*Animations*/
 /*
+
 #s29 {
-	background: linear-gradient(-250deg,#23d5ab,#23a6d5,#e73c7e, #ee7752);
+	background: linear-gradient(-250deg,#F2987D ,#BA3912,#FDF0EC, #ee7752);
 	background-size: 400% 400%;
 	animation: gradient 10s ease-in infinite;
     
@@ -620,7 +626,6 @@ body{
 
 
 
-
 /*Responsive attr*/
 
 @media only screen and (min-width: 400px) {
@@ -642,8 +647,10 @@ body{
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .example {background: red;}
+@media only screen and (min-heigh: 600px) {
+    body{
+        padding-top: 10%;
+    }
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -690,7 +697,8 @@ body{
     }
 
     .modal-content p{
-        font-size: 1.2em;
+        font-size: 0.8em;
+        text-align: left;
     }
     
     .btn-close{
@@ -698,12 +706,12 @@ body{
         height: 30px;
     }
     .modal-fullscreen{
-        max-width: 40%;
+        max-width: 45%;
         margin: auto;
     }
+
     .modal{
         background-color: black;
     }
 }
-
 
