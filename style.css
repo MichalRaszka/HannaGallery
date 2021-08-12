@@ -114,6 +114,8 @@ body{
     text-align: center;
 }
 
+.modal-footer{
+}
 
 .square {
     float:left;
@@ -621,33 +623,87 @@ body{
 
 /*Responsive attr*/
 
-@media only screen and (min-width: 682px) {
-    #mozaika{
-    height: 800px;
+@media only screen and (min-width: 400px) {
+    body{
+    height: 20vh;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 50px;
     }
 }
 
-@media only screen and (min-width: 700px) {
-    .square {
-        float:left;
-        position: relative;
-        width: 90px;
-        padding-bottom : 90px; /* = width for a 1:1 aspect ratio */
-        background-position:center center;
-        background-repeat:no-repeat;
-    }
-    #mozaika{
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
-    }
-}
+
 
 @media only screen and (max-width: 400px) {
     img{
         max-height: 120vw;
     }
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .example {background: red;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .example {background: green;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .example {background: blue;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .example {background: orange;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    #mozaika{
+        margin-left: 17.5%;
+        margin-right: 17.5%;
+    }
+
+    .square {
+        position: relative;
+        width: 74px;
+        padding-bottom: 74px;
+        /* = width for a 1:1 aspect ratio */
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    p{
+        font-size: 1.2em;
+    }
+    #stopka{
+        padding-top: 2%;
+    }
+
+    .modal-body{
+        width: 60%;
+    }
+
+    .modal-content p{
+        font-size: 1.2em;
+    }
+    
+    .btn-close{
+        width: 30px;
+        height: 30px;
+    }
+    .modal-fullscreen{
+        max-width: 40%;
+        margin: auto;
+    }
+    .modal{
+        background-color: black;
+    }
+}
+
+
