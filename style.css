@@ -99,17 +99,19 @@ body{
 
 .modal-content{
     background-color: black;
+    align-items: center;
 }
 
 .modal-body p{
     color: white;
-    text-align: center;
     font-size: 0.8rem;
     margin-bottom: 0;
+    text-align: center;
 }
 
 .description{
     padding-top: 0.9rem;
+    text-align: center;
 }
 
 
@@ -122,6 +124,9 @@ body{
     background-repeat:no-repeat;
 }
 
+img{
+    max-height: 400px;
+}
 
 
 #s1{
