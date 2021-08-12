@@ -92,6 +92,10 @@ body{
     color: white;
 }
 
+.modal{
+    background-color: black;
+}
+
 .modal-header{
     border:none;
     align-items: right;
@@ -655,7 +659,47 @@ body{
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
-    .example {background: green;}
+    #mozaika{
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+
+    .square {
+        position: relative;
+        width: 23px;
+        padding-bottom: 23px;
+        /* = width for a 1:1 aspect ratio */
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    p{
+        font-size: 0.7em;
+        margin: 0;
+    }
+    #stopka{
+        padding-top: 2%;
+    }
+
+    .modal-body{
+        width: 60%;
+    }
+
+    .modal-content p{
+        font-size: 0.8em;
+        text-align: left;
+    }
+    
+    .btn-close{
+        width: 15px;
+        height: 15px;
+    }
+    .modal-fullscreen{
+        max-width: 45%;
+        margin: auto;
+    }
+  } 
+
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
@@ -665,8 +709,51 @@ body{
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
-    .example {background: orange;}
+    #mozaika{
+        margin-left: 17%;
+        margin-right: 17%;
+    }
+
+    .square {
+        position: relative;
+        width: 36px;
+        padding-bottom: 36px;
+        /* = width for a 1:1 aspect ratio */
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    p{
+        font-size: 0.9em;
+        margin: 0;
+    }
+    #stopka{
+        padding-top: 2%;
+    }
+
+    .modal-body{
+        width: 60%;
+    }
+
+    .modal-content p{
+        font-size: 0.8em;
+        text-align: left;
+    }
+    
+    .btn-close{
+        width: 30px;
+        height: 30px;
+    }
+    .modal-fullscreen{
+        max-width: 45%;
+        margin: auto;
+    }
   } 
+  
+
+
+
+
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -691,6 +778,9 @@ body{
     #stopka{
         padding-top: 2%;
     }
+    #modal-1 > div:nth-child(2) > div:nth-child(1) > div:nth-child(1){
+        width: 100%;
+    }
 
     .modal-body{
         width: 60%;
@@ -709,9 +799,6 @@ body{
         max-width: 45%;
         margin: auto;
     }
-
-    .modal{
-        background-color: black;
-    }
+    
 }
 
