@@ -12,7 +12,7 @@ anime({
 
 
   
-//Animate S29 Square
+//Animate Squares
 
 
   anime({
@@ -80,3 +80,19 @@ anime({
     direction: 'alternate',
     delay: 2500
   });
+
+
+  //Animations on hover   
+
+  var animation = anime({
+    targets: '.square',
+    translateX: 270,
+    delay: function(el, i) { return i * 100; },
+    direction: 'alternate',
+    loop: true,
+    autoplay: false,
+    easing: 'easeInOutSine'
+  });
+  
+  document.querySelector('.play-pause-demo .play').onmouseover = animation.play;
+  document.querySelector('.play-pause-demo .pause').onmouseout = animation.pause;

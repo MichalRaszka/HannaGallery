@@ -1,26 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lato:wght@100&family=Raleway:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lato:wght@100&family=Raleway:wght@300&display=swap");
 
-*{
-    max-width: 100%;
+* {
+  max-width: 100%;
 }
 
-body{
-    background-color: black !important;
-    font-family: 'Dancing Script', cursive;
+body {
+  background-color: black !important;
+  font-family: "Dancing Script", cursive;
 
-    font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 
-    font-family: 'Raleway', sans-serif;
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
+  font-family: "Raleway", sans-serif;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-#mozaika{
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    /*display: grid;
+#mozaika {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  /*display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
@@ -44,555 +44,556 @@ body{
           */
 }
 
-    
 /* stopka */
 
-#stopka{
-    padding-top: 4%;
-    width: 100%;
-    margin-top: auto;
+#stopka {
+  padding-top: 4%;
+  width: 100%;
+  margin-top: auto;
 }
 
 /* Autor */
 
-#autor{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 16px;
-    text-align: center;
+#autor {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
 
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 /* Kontakt */
 
-#kontakt{
-    font-family: 'Dancing Script', cursive;
+#kontakt {
+  font-family: "Dancing Script", cursive;
 
-    font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
 
-    
-    text-align: center;
-    
-    color: rgba(255, 255, 255, 0.78);
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.78);
 }
 
-#kontakt p{
-    padding:0px;
-    margin: 0;
+#kontakt p {
+  padding: 0px;
+  margin: 0;
 }
 
-#mailto{
-    color: white;
+#mailto {
+  color: white;
 }
 
-.modal{
-    background-color: black;
+.modal {
+  background-color: black;
 }
 
-.modal-header{
-    border:none;
-    align-items: right;
+.modal-header {
+  border: none;
+  align-items: right;
 }
 
-.modal-content{
-    background-color: black;
-    align-items: center;
+.modal-content {
+  background-color: black;
+  align-items: center;
 }
 
-.modal-body p{
-    color: white;
-    font-size: 0.8rem;
-    margin-bottom: 0;
-    text-align: center;
+.modal-body p {
+  color: white;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+  text-align: center;
 }
 
-.description{
-    padding-top: 0.9rem;
-    text-align: center;
+.description {
+  padding-top: 0.9rem;
+  text-align: center;
 }
 
-.modal-footer{
+.modal-footer {
 }
 
 .square {
-    float:left;
-    position: relative;
-    width: 10%;
-    padding-bottom : 10%; /* = width for a 1:1 aspect ratio */
-    background-position:center center;
-    background-repeat:no-repeat;
-    opacity: 70%;
+  float: left;
+  position: relative;
+  width: 10%;
+  padding-bottom: 10%; /* = width for a 1:1 aspect ratio */
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 70%;
 }
 
-
-
-
-#s1{
-    background-color:  #64382E;
+#s1 {
+  background-color: #64382e;
 }
-#s2{
-    background-color:  #403B3A;
+#s2 {
+  background-color: #403b3a;
 }
-#s3{
-    background-color:  #5A5657;
+#s3 {
+  background-color: #5a5657;
 }
-#s4{
-    background-color:  #363335;
+#s4 {
+  background-color: #363335;
 }
-#s5{
-    background-color:  #512C2C;
+#s5 {
+  background-color: #512c2c;
 }
-#s6{
-    background-color:  #684631;
+#s6 {
+  background-color: #684631;
 }
-#s7{
-    background-color:  #3E1C26;
+#s7 {
+  background-color: #3e1c26;
 }
-#s8{
-    background-color:  #3B1821;
+#s8 {
+  background-color: #3b1821;
 }
-#s9{
-    background-color:  #35121B;
+#s9 {
+  background-color: #35121b;
 }
-#s10{
-    background-color:  #32101B;
+#s10 {
+  background-color: #32101b;
 }
-#s11{
-    background-color:  #2C2E39;
+#s11 {
+  background-color: #2c2e39;
 }
-#s12{
-    background-color:  #0B0D12;
+#s12 {
+  background-color: #0b0d12;
 }
-#s13{
-    background-color:  #1B2E3B;
+#s13 {
+  background-color: #1b2e3b;
 }
-#s14{
-    background-color:  #737775;
+#s14 {
+  background-color: #737775;
 }
-#s15{
-    background-color:  #614E47;
+#s15 {
+  background-color: #614e47;
 }
-#s16{
-    background-color:  #655D5A;
+#s16 {
+  background-color: #655d5a;
 }
-#s17{
-    background-color:  #67565D;
+#s17 {
+  background-color: #67565d;
 }
-#s18{
-    background-color:  #68575D;
+#s18 {
+  background-color: #68575d;
 }
-#s19{
-    background-color: #4B383C;
+#s19 {
+  background-color: #4b383c;
 }
-#s20{
-    background-color:  #371C1F;
+#s20 {
+  background-color: #371c1f;
 }
-#s21{
-    background-color:  #111219;
+#s21 {
+  background-color: #111219;
 }
-#s22{
-    background-color:  #17222A;
+#s22 {
+  background-color: #17222a;
 }
-#s23{
-    background-color:  #414A51;
+#s23 {
+  background-color: #414a51;
 }
-#s24{
-    background-color:  #75716A;
+#s24 {
+  background-color: #75716a;
 }
-#s25{
-    background-color:  #636161;
+#s25 {
+  background-color: #636161;
 }
-#s26{
-    background-color:  #6A6861;
+#s26 {
+  background-color: #6a6861;
 }
-#s27{
-    background-color:  #3E241D;
+#s27 {
+  background-color: #3e241d;
 }
-#s28{
-    background-color:  #614E55;
+#s28 {
+  background-color: #614e55;
 }
-#s29{
-    background-color:  #F2682B;
+#s29 {
+  background-color: #f2682b;
 }
-#s30{
-    background-color:  #32101C;
+#s30 {
+  background-color: #32101c;
 }
-#s31{
-    background-color:  #151115;
+#s31 {
+  background-color: #151115;
 }
-#s32{
-    background-color:  #0E0E13;
+#s32 {
+  background-color: #0e0e13;
 }
-#s33{
-    background-color:  #327BE1;
+#s33 {
+  background-color: #327be1;
 }
-#s34{
-    background-color:  #6F6B67;
+#s34 {
+  background-color: #6f6b67;
 }
-#s35{
-    background-color:  #595151;
+#s35 {
+  background-color: #595151;
 }
-#s36{
-    background-color:  #F6F0EB;
+#s36 {
+  background-color: #f6f0eb;
 }
-#s37{
-    background-color:  #68565C;
+#s37 {
+  background-color: #68565c;
 }
-#s38{
-    background-color:  #5F4E55;
+#s38 {
+  background-color: #5f4e55;
 }
-#s39{
-    background-color:  #3B2C2A;
+#s39 {
+  background-color: #3b2c2a;
 }
-#s40{
-    background-color:  #322023;
+#s40 {
+  background-color: #322023;
 }
-#s41{
-    background-color:  #374A58;
+#s41 {
+  background-color: #374a58;
 }
-#s42{
-    background-color:  #1F232A;
+#s42 {
+  background-color: #1f232a;
 }
-#s43{
-    background-color:  #374A58;
+#s43 {
+  background-color: #374a58;
 }
-#s44{
-    background-color:  #675E58;
+#s44 {
+  background-color: #675e58;
 }
-#s45{
-    background-color:  #686668;
+#s45 {
+  background-color: #686668;
 }
-#s46{
-    background-color:  #3C3131;
+#s46 {
+  background-color: #3c3131;
 }
-#s47{
-    background-color:  #F01753;
+#s47 {
+  background-color: #f01753;
 }
-#s48{
-    background-color:  #432B29;
+#s48 {
+  background-color: #432b29;
 }
-#s49{
-    background-color:  #210C0D;
+#s49 {
+  background-color: #210c0d;
 }
-#s50{
-    background-color:  #3B2C2A;
+#s50 {
+  background-color: #3b2c2a;
 }
-#s51{
-    background-color:  #100E13;
+#s51 {
+  background-color: #100e13;
 }
-#s52{
-    background-color:  #1C1F27;
+#s52 {
+  background-color: #1c1f27;
 }
-#s53{
-    background-color:  #3B383F;
+#s53 {
+  background-color: #3b383f;
 }
-#s54{
-    background-color:  #586367;
+#s54 {
+  background-color: #586367;
 }
-#s55{
-    background-color:  #696A6B;
+#s55 {
+  background-color: #696a6b;
 }
-#s56{
-    background-color:  #4B5768;
+#s56 {
+  background-color: #4b5768;
 }
-#s57{
-    background-color:  #4C3B38;
+#s57 {
+  background-color: #4c3b38;
 }
-#s58{
-    background-color:  #432F2C;
+#s58 {
+  background-color: #432f2c;
 }
-#s59{
-    background-color:  #291317;
+#s59 {
+  background-color: #291317;
 }
-#s60{
-    background-color:  #392627;
+#s60 {
+  background-color: #392627;
 }
-#s61{
-    background-color:  #191E27;
+#s61 {
+  background-color: #191e27;
 }
-#s62{
-    background-color:  #10232E;
+#s62 {
+  background-color: #10232e;
 }
-#s63{
-    background-color:  #435967;
+#s63 {
+  background-color: #435967;
 }
-#s64{
-    background-color:  #404658;
+#s64 {
+  background-color: #404658;
 }
-#s65{
-    background-color:  #50434A;
+#s65 {
+  background-color: #50434a;
 }
-#s66{
-    background-color:  #677172;
+#s66 {
+  background-color: #677172;
 }
-#s67{
-    background-color:  #574848;
+#s67 {
+  background-color: #574848;
 }
-#s68{
-    background-color:  #45332F;
+#s68 {
+  background-color: #45332f;
 }
-#s69{
-    background-color:  #442F2F;
+#s69 {
+  background-color: #442f2f;
 }
-#s70{
-    background-color:  #3E2A2A;
+#s70 {
+  background-color: #3e2a2a;
 }
-#s71{
-    background-color:  #4D3A3E;
+#s71 {
+  background-color: #4d3a3e;
 }
-#s72{
-    background-color:  #292B35;
+#s72 {
+  background-color: #292b35;
 }
-#s73{
-    background-color:  #374A58;
+#s73 {
+  background-color: #374a58;
 }
-#s74{
-    background-color:  #64706F;
+#s74 {
+  background-color: #64706f;
 }
-#s75{
-    background-color:  #FAC35F;
+#s75 {
+  background-color: #fac35f;
 }
-#s76{
-    background-color:  #6F675D;
+#s76 {
+  background-color: #6f675d;
 }
-#s77{
-    background-color:  #532925;
+#s77 {
+  background-color: #532925;
 }
-#s78{
-    background-color:  #5D3C3E;
+#s78 {
+  background-color: #5d3c3e;
 }
-#s79{
-    background-color:  #451F23;
+#s79 {
+  background-color: #451f23;
 }
-#s80{
-    background-color:  #421C21;
+#s80 {
+  background-color: #421c21;
 }
-#s81{
-    background-color:  #6B5B5D;
+#s81 {
+  background-color: #6b5b5d;
 }
-#s82{
-    background-color:  #57675C;
+#s82 {
+  background-color: #57675c;
 }
-#s83{
-    background-color:  #563B26;
+#s83 {
+  background-color: #563b26;
 }
-#s84{
-    background-color:  #5C2713;
+#s84 {
+  background-color: #5c2713;
 }
-#s85{
-    background-color:  #5F423B;
+#s85 {
+  background-color: #5f423b;
 }
-#s86{
-    background-color:  #66655B;
+#s86 {
+  background-color: #66655b;
 }
-#s87{
-    background-color:  #5A4748;
+#s87 {
+  background-color: #5a4748;
 }
-#s88{
-    background-color:  #6C5C5E;
+#s88 {
+  background-color: #6c5c5e;
 }
-#s89{
-    background-color:  #482327;
+#s89 {
+  background-color: #482327;
 }
-#s90{
-    background-color:  #391219;
+#s90 {
+  background-color: #391219;
 }
-#s91{
-    background-color:  #685A5A;
+#s91 {
+  background-color: #685a5a;
 }
-#s92{
-    background-color:  #685F53;
+#s92 {
+  background-color: #685f53;
 }
-#s93{
-    background-color:  #683E30;
+#s93 {
+  background-color: #683e30;
 }
-#s94{
-    background-color:  #5D2E1C;
+#s94 {
+  background-color: #5d2e1c;
 }
-#s95{
-    background-color:  #746C62;
+#s95 {
+  background-color: #746c62;
 }
-#s96{
-    background-color:  #4F2C17;
+#s96 {
+  background-color: #4f2c17;
 }
-#s97{
-    background-color:  #ADFBF8;
+#s97 {
+  background-color: #adfbf8;
 }
-#s98{
-    background-color:  #574A4C;
+#s98 {
+  background-color: #574a4c;
 }
-#s99{
-    background-color:  #6B575C;
+#s99 {
+  background-color: #6b575c;
 }
-#s100{
-    background-color:  #251616;
+#s100 {
+  background-color: #251616;
 }
-#s101{
-    background-color:  #5B4948;
+#s101 {
+  background-color: #5b4948;
 }
-#s102{
-    background-color:  #635B4D;
+#s102 {
+  background-color: #635b4d;
 }
-#s103{
-    background-color:  #693921;
+#s103 {
+  background-color: #693921;
 }
-#s104{
-    background-color:  #71401C;
+#s104 {
+  background-color: #71401c;
 }
-#s105{
-    background-color:  #6D543E;
+#s105 {
+  background-color: #6d543e;
 }
-#s106{
-    background-color:  #442F15;
+#s106 {
+  background-color: #442f15;
 }
-#s107{
-    background-color:  #382B32;
+#s107 {
+  background-color: #382b32;
 }
-#s108{
-    background-color:  #66585E;
+#s108 {
+  background-color: #66585e;
 }
-#s109{
-    background-color:  #635359;
+#s109 {
+  background-color: #635359;
 }
-#s110{
-    background-color:  #2B1E20;
+#s110 {
+  background-color: #2b1e20;
 }
-#s111{
-    background-color: #635B4D;
+#s111 {
+  background-color: #635b4d;
 }
-#s112{
-    background-color:  #716B69;
+#s112 {
+  background-color: #716b69;
 }
-#s113{
-    background-color:  #5F4331;
+#s113 {
+  background-color: #5f4331;
 }
-#s114{
-    background-color:  #532724;
+#s114 {
+  background-color: #532724;
 }
-#s115{
-    background-color:  #71401C;
+#s115 {
+  background-color: #71401c;
 }
-#s116{
-    background-color:  #3415EE;
+#s116 {
+  background-color: #3415ee;
 }
-#s117{
-    background-color:  #372F33;
+#s117 {
+  background-color: #372f33;
 }
-#s118{
-    background-color:  #190A07;
+#s118 {
+  background-color: #190a07;
 }
-#s119{
-    background-color:  #5E5358;
+#s119 {
+  background-color: #5e5358;
 }
-#s120{
-    background-color:  #65565C;
+#s120 {
+  background-color: #65565c;
 }
-#s121{
-    background-color:  #251315;
+#s121 {
+  background-color: #251315;
 }
-#s122{
-    background-color:  #666562;
+#s122 {
+  background-color: #666562;
 }
-#s123{
-    background-color:  #623F27;
+#s123 {
+  background-color: #623f27;
 }
-#s124{
-    background-color:  #633D26;
+#s124 {
+  background-color: #633d26;
 }
-#s125{
-    background-color:  #6C4013;
+#s125 {
+  background-color: #6c4013;
 }
-#s126{
-    background-color:  #6E6057;
+#s126 {
+  background-color: #6e6057;
 }
-#s127{
-    background-color:  #604733;
+#s127 {
+  background-color: #604733;
 }
-#s128{
-    background-color:  #392424;
+#s128 {
+  background-color: #392424;
 }
-#s129{
-    background-color:  #4D3729;
+#s129 {
+  background-color: #4d3729;
 }
-#s130{
-    background-color:  #494143;
+#s130 {
+  background-color: #494143;
 }
-#s131{
-    background-color:  #260E13;
+#s131 {
+  background-color: #260e13;
 }
-#s132{
-    background-color:  #63625E;
+#s132 {
+  background-color: #63625e;
 }
-#s133{
-    background-color:  #63391D;
+#s133 {
+  background-color: #63391d;
 }
-#s134{
-    background-color:  #5E6066;
+#s134 {
+  background-color: #5e6066;
 }
-#s135{
-    background-color:  #653523;
+#s135 {
+  background-color: #653523;
 }
-#s136{
-    background-color:  #4C4446;
+#s136 {
+  background-color: #4c4446;
 }
-#s137{
-    background-color:  #98DFC0;
+#s137 {
+  background-color: #98dfc0;
 }
-#s138{
-    background-color:  #140707;
+#s138 {
+  background-color: #140707;
 }
-#s139{
-    background-color:  #2C2524;
+#s139 {
+  background-color: #2c2524;
 }
-#s140{
-    background-color:  #655257;
+#s140 {
+  background-color: #655257;
 }
-#s141{
-    background-color:  #2D1D1E;
+#s141 {
+  background-color: #2d1d1e;
 }
-#s142{
-    background-color:  #2A2C35;
+#s142 {
+  background-color: #2a2c35;
 }
-#s143{
-    background-color:  #0C0E13;
+#s143 {
+  background-color: #0c0e13;
 }
-#s144{
-    background-color:  #1E2936;
+#s144 {
+  background-color: #1e2936;
 }
-#s145{
-    background-color:  #131419;
+#s145 {
+  background-color: #131419;
 }
-#s146{
-    background-color:  #392424;
+#s146 {
+  background-color: #392424;
 }
-#s147{
-    background-color:  #2C2524;
+#s147 {
+  background-color: #2c2524;
 }
-#s148{
-    background-color:  #0E0606;
+#s148 {
+  background-color: #0e0606;
 }
-#s149{
-    background-color:  #3A2122;
+#s149 {
+  background-color: #3a2122;
 }
-#s150{
-    background-color:  #483738;
+#s150 {
+  background-color: #483738;
 }
 
-
-
-#s29, #s33, #s36, #s47, #s75, #s97, #s116, #s137{
-    opacity: 100%;
-    z-index: 1;
+#s29,
+#s33,
+#s36,
+#s47,
+#s75,
+#s97,
+#s116,
+#s137 {
+  opacity: 100%;
+  z-index: 1;
+  cursor: pointer;
 }
 
-  /*Animations*/
+/*Animations*/
 /*
 
 #s29 {
@@ -628,177 +629,162 @@ body{
 
 */
 
-
-
 /*Responsive attr*/
 
 @media only screen and (min-width: 400px) {
-    body{
+  body {
     height: 20vh;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 50px;
-    }
+  }
 }
-
-
 
 @media only screen and (max-width: 400px) {
-    img{
-        max-height: 120vw;
-    }
+  img {
+    max-height: 120vw;
+  }
 }
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-heigh: 600px) {
-    body{
-        padding-top: 10%;
-    }
+  body {
+    padding-top: 10%;
   }
-  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-    #mozaika{
-        margin-left: 12.5%;
-        margin-right: 12.5%;
-    }
-
-    .square {
-        position: relative;
-        width: 23px;
-        padding-bottom: 23px;
-        /* = width for a 1:1 aspect ratio */
-        background-position: center center;
-        background-repeat: no-repeat;
-    }
-
-    p{
-        font-size: 0.7em;
-        margin: 0;
-    }
-    #stopka{
-        padding-top: 2%;
-    }
-
-    .modal-body{
-        width: 60%;
-    }
-
-    .modal-content p{
-        font-size: 0.8em;
-        text-align: left;
-    }
-    
-    .btn-close{
-        width: 15px;
-        height: 15px;
-    }
-    .modal-fullscreen{
-        max-width: 45%;
-        margin: auto;
-    }
-  } 
-
-  }
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-    .example {background: blue;}
-  } 
-  
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-    #mozaika{
-        margin-left: 17%;
-        margin-right: 17%;
-    }
-
-    .square {
-        position: relative;
-        width: 36px;
-        padding-bottom: 36px;
-        /* = width for a 1:1 aspect ratio */
-        background-position: center center;
-        background-repeat: no-repeat;
-    }
-
-    p{
-        font-size: 0.9em;
-        margin: 0;
-    }
-    #stopka{
-        padding-top: 2%;
-    }
-
-    .modal-body{
-        width: 60%;
-    }
-
-    .modal-content p{
-        font-size: 0.8em;
-        text-align: left;
-    }
-    
-    .btn-close{
-        width: 30px;
-        height: 30px;
-    }
-    .modal-fullscreen{
-        max-width: 45%;
-        margin: auto;
-    }
-  } 
-  
-
-
-
-
-  
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-    #mozaika{
-        margin-left: 17.5%;
-        margin-right: 17.5%;
-    }
-
-    .square {
-        position: relative;
-        width: 74px;
-        padding-bottom: 74px;
-        /* = width for a 1:1 aspect ratio */
-        background-position: center center;
-        background-repeat: no-repeat;
-    }
-
-    p{
-        font-size: 1.2em;
-    }
-    #stopka{
-        padding-top: 2%;
-    }
-    #modal-1 > div:nth-child(2) > div:nth-child(1) > div:nth-child(1){
-        width: 100%;
-    }
-
-    .modal-body{
-        width: 60%;
-    }
-
-    .modal-content p{
-        font-size: 0.8em;
-        text-align: left;
-    }
-    
-    .btn-close{
-        width: 30px;
-        height: 30px;
-    }
-    .modal-fullscreen{
-        max-width: 45%;
-        margin: auto;
-    }
-    
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+  #mozaika {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+  }
+
+  .square {
+    position: relative;
+    width: 6.5%;
+    padding-bottom:  6.5%;
+    /* = width for a 1:1 aspect ratio */
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  p {
+    font-size: 100%;
+    margin: 0;
+  }
+  #stopka {
+    padding-top: 10%;
+  }
+
+  .modal-body {
+    width: 60%;
+  }
+
+  .modal-content p {
+    font-size: 0.8em;
+    text-align: left;
+  }
+
+  .btn-close {
+    width: 15px;
+    height: 15px;
+  }
+  .modal-fullscreen {
+    max-width: 45%;
+    margin: auto;
+  }
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #mozaika {
+    margin-left: 4%;
+    margin-right: 4%;
+    height: auto;
+  }
+
+  .square {
+    position: relative;
+    width: 6.5%;
+    padding-bottom: 6.5%;
+    height: auto;
+    /* = width for a 1:1 aspect ratio */
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  p {
+    font-size: 0.9em;
+    margin: 0;
+  }
+  #stopka {
+    padding-top: 2%;
+  }
+
+  .modal-body {
+    width: 60%;
+  }
+
+  .modal-content p {
+    font-size: 0.8em;
+    text-align: left;
+  }
+
+  .btn-close {
+    width: 30px;
+    height: 30px;
+  }
+  .modal-fullscreen {
+    max-width: 45%;
+    margin: auto;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1500px) {
+  #mozaika {
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+  }
+
+  .square {
+    position: relative;
+    width: 74px;
+    padding-bottom: 74px;
+    /* = width for a 1:1 aspect ratio */
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+  #stopka {
+    padding-top: 2%;
+  }
+  #modal-1 > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
+    width: 100%;
+  }
+
+  .modal-body {
+    width: 60%;
+  }
+
+  .modal-content p {
+    font-size: 0.8em;
+    text-align: left;
+  }
+
+  .btn-close {
+    width: 30px;
+    height: 30px;
+  }
+  .modal-fullscreen {
+    max-width: 45%;
+    margin: auto;
+  }
+}
