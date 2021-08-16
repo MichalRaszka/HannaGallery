@@ -858,3 +858,29 @@ div.column>img:hover{
   }
 }
 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 600px) and (max-width: 1500px) {
+  
+  #modal-1 > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
+    width: 100%;
+  }
+
+  .modal-body {
+    width: 60%;
+  }
+
+  .modal-content p {
+    font-size: 0.8em;
+    text-align: left;
+  }
+
+  .btn-close {
+    width: 30px;
+    height: 30px;
+  }
+  .modal-fullscreen {
+    max-width: 70%;
+    margin: auto;
+  }
+}
+
