@@ -84,15 +84,20 @@ anime({
 
   //Animations on hover   
 
-  var animation = anime({
-    targets: '.square',
-    translateX: 270,
-    delay: function(el, i) { return i * 100; },
-    direction: 'alternate',
-    loop: true,
-    autoplay: false,
-    easing: 'easeInOutSine'
-  });
+  var buttonEl = document.querySelector('.square');
+
+  function animateButton(scale, duration, elasticity) {
+    anime.remove(buttonEl);
+    anime({
+      targets: buttonEl,
+      scale: scale,
+      duration: duration,
+      elasticity: elasticity
+    });
+  }
   
-  document.querySelector('.play-pause-demo .play').onmouseover = animation.play;
-  document.querySelector('.play-pause-demo .pause').onmouseout = animation.pause;
+  function enterButton() { animateButton(1.2, 800, 400) };
+  function leaveButton() { animateButton(1.0, 600, 300) };
+  
+  buttonEl.addEventListener('mouseenter', enterButton, false);
+  buttonEl.addEventListener('mouseleave', leaveButton, false);
