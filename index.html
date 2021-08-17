@@ -10,6 +10,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/Icon.png">
 </head>
 
 <body>
@@ -541,18 +542,34 @@
                   
             <div class="row">
                 <div class="column">
-                  <img src="Images/4 Images Group/8_Sample vol. 3 A.jpeg" >
+                  <img src="Images/4 Images Group/8_Sample vol. 3 A.jpeg" style="width:100%" onclick="myFunction(this);">
                 </div>
                 <div class="column">
-                  <img src="Images/4 Images Group/8_Sample vol. 3 B.jpeg" ">
+                  <img src="Images/4 Images Group/8_Sample vol. 3 B.jpeg" style="width:100%" onclick="myFunction(this);">
                 </div>
                 <div class="column">
-                  <img src="Images/4 Images Group/8_Sample vol. 3 C.jpeg" >
+                  <img src="Images/4 Images Group/8_Sample vol. 3 C.jpeg" style="width:100%" onclick="myFunction(this);">
                 </div>
                 <div class="column">
-                    <img src="Images/4 Images Group/8_Sample vol. 3 D.jpeg" >
-                  </div>
+                  <img src="Images/4 Images Group/8_Sample vol. 3 D.jpeg" style="width:100%" onclick="myFunction(this);">
+                </div>
               </div>
+              
+              <div class="container">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <img id="expandedImg" style="width:100%">
+                <div id="imgtext"></div>
+              </div>
+              
+              <script>
+              function myFunction(imgs) {
+                var expandImg = document.getElementById("expandedImg");
+                var imgText = document.getElementById("imgtext");
+                expandImg.src = imgs.src;
+                imgText.innerHTML = imgs.alt;
+                expandImg.parentElement.style.display = "block";
+              }
+              </script>
 
 
         </div>
